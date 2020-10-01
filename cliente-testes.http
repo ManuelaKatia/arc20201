@@ -16,7 +16,8 @@ Accept: application/json
         {"quartos": 3},
         {"cozinhas": 1},
         {"banheiros": 2},
-        {"salas": 1}
+        {"salas": 1},
+        {"preco": 850}
     ]
 }
 
@@ -27,16 +28,18 @@ POST http://localhost:5000/gravar
 Accept: application/json
 
 {
-    "medida": "ideia",
+    "medida": "Aplicativo",
     "marcadores": [
-        {"local": "quarto"},
-        {"personagem": "Lola"},
-        {"acao": "curiosa"}
+        {"tipo": "casa01"}
     ],
     "valores": [
-        {"latitude": -27.6084177},
-        {"longitude": -48.6354691},
-        {"altitude": 80}
+        {"latitude": -27.751300},
+        {"longitude":-48.633377},
+        {"quartos": 3},
+        {"cozinhas": 1},
+        {"banheiros": 2},
+        {"salas": 1},
+        {"preco": 850}
     ]
 }
 
@@ -48,16 +51,18 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "medida": "ideia",
+    "medida": "Aplicativo",
     "marcadores": [
-        {"local": "quarto"},
-        {"personagem": "Lola"},
-        {"acao": "curiosa"}
+        {"tipo": "casa01"}
     ],
     "valores": [
-        {"latitude": -27.6084177},
-        {"longitude": -48.6354691},
-        {"altitude": 80}
+        {"latitude": -27.751300},
+        {"longitude":-48.633377},
+        {"quartos": 3},
+        {"cozinhas": 1},
+        {"banheiros": 2},
+        {"salas": 1},
+        {"preco": 850}
     ]
 
 ###
@@ -68,15 +73,17 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "marcadores": [
-        {"local": "quarto"},
-        {"personagem": "Lola"},
-        {"acao": "curiosa"}
+     "marcadores": [
+        {"tipo": "casa01"}
     ],
     "valores": [
-        {"latitude": -27.6084177},
-        {"longitude": -48.6354691},
-        {"altitude": 80}
+        {"latitude": -27.751300},
+        {"longitude":-48.633377},
+        {"quartos": 3},
+        {"cozinhas": 1},
+        {"banheiros": 2},
+        {"salas": 1},
+        {"preco": 850}
     ]
 }
 
@@ -89,15 +96,17 @@ Accept: application/json
 
 {
     "medida": 120,
-    "marcadores": [
-        {"local": "quarto"},
-        {"personagem": "Lola"},
-        {"acao": "curiosa"}
+     "marcadores": [
+        {"tipo": "casa01"}
     ],
     "valores": [
-        {"latitude": -27.6084177},
-        {"longitude": -48.6354691},
-        {"altitude": 80}
+        {"latitude": -27.751300},
+        {"longitude":-48.633377},
+        {"quartos": 3},
+        {"cozinhas": 1},
+        {"banheiros": 2},
+        {"salas": 1},
+        {"preco": 850}
     ]
 }
 
@@ -109,11 +118,9 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "medida": "ideia",
+    "medida": "Aplicativo",
     "marcadores": [
-        {"local": "quarto"},
-        {"personagem": "Lola"},
-        {"acao": "curiosa"}
+        {"tipo": "casa01"}
     ]
 }
 
@@ -125,11 +132,9 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "medida": "ideia",
+    "medida": "Aplicativo",
     "marcadores": [
-        {"local": "quarto"},
-        {"personagem": "Lola"},
-        {"acao": "curiosa"}
+        {"tipo": "casa01"}
     ],
     "valores": 4567
 }
@@ -142,11 +147,9 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "medida": "ideia",
+    "medida": "Aplicativo",
     "marcadores": [
-        {"local": "quarto"},
-        {"personagem": "Lola"},
-        {"acao": "curiosa"}
+        {"tipo": "casa01"}
     ],
     "valores": [
     ]
@@ -160,16 +163,18 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "medida": "ideia",
+    "medida": "Aplicativo",
     "marcadores": [
-        {"local": "quarto"},
-        {"personagem": "Lola"},
-        {"acao": "curiosa"}
+        {"tipo": "casa01"}
     ],
     "valores": [
-        {"latitude": -27.6084177},
-        {"longitude": -48.6354691},
-        {"altitude": 80}
+        {"latitude": -27.751300},
+        {"longitude":-48.633377},
+        {"quartos": 3},
+        {"cozinhas": 1},
+        {"banheiros": 2},
+        {"salas": 1},
+        {"preco": 850}
     ]
 }
 
