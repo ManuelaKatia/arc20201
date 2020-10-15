@@ -18,7 +18,7 @@ def validar_json(dados):
         # Em caso contrário, retornar 400.
         resposta = {"Erro": "Campo 'valores' inexistente."}
         return resposta, 400
-    else:
+     else:
         # 'valores' existe, agora é preciso verificar se existe pelo menos
         # 1 par chave-valor.
         if type(dados["valores"]) is not list or len(dados["valores"]) < 1:
@@ -30,3 +30,18 @@ def validar_json(dados):
     # Se todas as verificações foram feitas, retornar 200.
     resposta = {"Sucesso": "JSON válido."}
     return resposta, 200
+
+if "marcadores" not in dados:
+        resposta = {"Erro": "Campo 'marcadores' inexistente."}
+        return resposta,400
+    else:
+        for item in dados["marcadores"]:
+            for chave, valor in item.itens():
+                if chave.lower() == "url":
+                    url_de_teste = valor
+                    
+        if url_de_teste:
+            req = get(url_de_teste)
+            if req.status_code >= 200 and req.status_code <= 399:
+                resposta = {"Sucesso": "URL válida"}
+                return resposta, 200
