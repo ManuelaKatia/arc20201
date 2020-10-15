@@ -21,6 +21,8 @@ Accept: application/json
     ]
 }
 
+# Aplicativo,tipo=casa01 latitude=-27.751300,longitude=-48.633377,quartos=3,cozinhas=1,banheiros=2,salas=1,preco=850
+
 ###
 
 # Requisição inválida: cabeçalho não menciona formato
